@@ -1,0 +1,2 @@
+# FIRPLAK_Trazabilidad_Logistica
+Aploicacion FIRPLAK Trazabilidad Logistica desarrollado del backend
