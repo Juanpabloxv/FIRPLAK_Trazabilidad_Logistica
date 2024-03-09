@@ -1,0 +1,30 @@
+# Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+
+# Virtual environment
+venv/
+env/
+
+# Data base
+postgres_data/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+*.code-workspace.backup
+
+# Other
+*.log
+*.pyc
+*.swp
+*.swo
+*.bak
+*.pyz
+*.pyw
+*.db
+*.sqlite3
+*.DS_Store
