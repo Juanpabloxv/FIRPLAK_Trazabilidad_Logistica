@@ -7,7 +7,7 @@ class PedidoSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class LineaPedidoSerializer(serializers.ModelSerializer):
-    pedido = PedidoSerializer(read_only=True)
+    pedido = serializers.PrimaryKeyRelatedField(queryset=Pedido.objects.all())
     class Meta:
         model = LineaPedido
         fields = '__all__'
